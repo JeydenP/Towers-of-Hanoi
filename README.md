@@ -22,7 +22,9 @@ towers-of-hanoi/
    git clone https://github.com/YOUR_USERNAME/towers-of-hanoi.git
    cd towers-of-hanoi
 2. Run the game:
+   ```bash
    python3 hanoi.py
+   ```
 3. Follow the prompts to move disks between stacks until you solve the puzzle.
 
 ## 🛠 Features
