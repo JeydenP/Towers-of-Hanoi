@@ -10,20 +10,22 @@ The goal of the game is to move all the disks from the first tower to another to
 
 ## 📂 Project Structure
 ```text
-towers-of-hanoi/
-│── hanoi.py        # Main game logic
-│── stack.py        # Stack class used to represent towers
-│── README.md       # Project documentation
-│── .gitignore      # Ignored files (like __pycache__)
+Towers-of-Hanoi/
+│── TowersofHanoi.py  # Main game logic
+│── stack.py          # Stack class used to represent towers
+│── node.py           # (If used) Node helper for stacks/disks
+│── README.md         # Project documentation
+│── .gitignore        # Ignored files (like __pycache__)
 ```
 ## ▶️ How to Play
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/towers-of-hanoi.git
-   cd towers-of-hanoi
+   git clone https://github.com/JeydenP/Towers-of-Hanoi.git
+   cd Towers-of-Hanoi
+   ```
 2. Run the game:
    ```bash
-   python3 hanoi.py
+   python3 TowersofHanoi.py
    ```
 3. Follow the prompts to move disks between stacks until you solve the puzzle.
 
